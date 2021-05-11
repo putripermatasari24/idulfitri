@@ -63,7 +63,7 @@ let countDown = new Date('May 9, 2021 00:00:00').getTime(),
 	    }
 	}).then((result) => {
 		if (result.isConfirmed) {
-			Swal.fire("السلام عليكم ورحمة الله وبركاته ", "Hi " + nama + ", dg. Ngemba dan Keluarga Minta Maaf atas Kesalahan yang Kami sSngaja maupun Tidak DiSengaja, mohon maaf lahir dan batin. Minal 'Aidzin wal-Faizin Mohon Maaf Lahir dan Batin. Taqabbalallahu Minna Wa Minkun, semoga Alloh menerima (puasa dan amal) kita. Aamiin yarabbal alaamiin :D", "info").then(function(){
+			Swal.fire("السلام عليكم ورحمة الله وبركاته ", "Hi " + nama + ", dg. Ngemba dan Keluarga Minta Maaf atas Kesalahan yang Kami Sengaja maupun Tidak DiSengaja, Minal 'Aidzin wal-Faizin Mohon Maaf Lahir dan Batin. Taqabbalallahu Minna Wa Minkun, semoga Allah menerima (puasa dan amal) kita. Aamiin yarabbal alaamiin :D", "info").then(function(){
                                           const Toast = Swal.mixin({
                                           toast: true,
                                          position: 'center',
