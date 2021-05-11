@@ -63,7 +63,7 @@ let countDown = new Date('May 9, 2021 00:00:00').getTime(),
 	    }
 	}).then((result) => {
 		if (result.isConfirmed) {
-			Swal.fire("Assalamuallaikum ", "Hi " + nama + ", dg. " + sender + " minta maaf atas kesalahan yang kami sengaja maupun tidak disengaja, mohon maaf lahir dan batin. Taqabbalallahu Minna Wa Minkun, semoga Alloh menerima (puasa dan amal) kita yaa.. aamiin yarabbal alaamiin :D", "info").then(function(){
+			Swal.fire("السلام عليكم ورحمة الله وبركاته ", "Hi " + nama + ", dg. " + sender + " minta maaf atas kesalahan yang kami sengaja maupun tidak disengaja, mohon maaf lahir dan batin. Taqabbalallahu Minna Wa Minkun, semoga Alloh menerima (puasa dan amal) kita yaa.. aamiin yarabbal alaamiin :D", "info").then(function(){
                                           const Toast = Swal.mixin({
                                           toast: true,
                                          position: 'center',
